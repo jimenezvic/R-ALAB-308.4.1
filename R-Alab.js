@@ -1,9 +1,20 @@
 
+<<<<<<< HEAD
 let csv = "ID,Name,Occupation,Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor’s Assistant,26";
 
 let newArray = csv.split('\n');
 console.log(newArray);
 
+=======
+
+let csv = "ID,Name,Occupation,Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor’s Assistant,26";
+
+
+let newArray = csv.split('\n');
+console.log(newArray);
+
+
+>>>>>>> eb41949faf62f03f6460e31893a35514861710f4
 let dataArray = [];
 newArray.forEach(item => {
   dataArray.push(item.split(','));
